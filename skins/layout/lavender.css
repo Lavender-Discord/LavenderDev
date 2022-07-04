@@ -1,0 +1,43 @@
+/*? Basic */
+.theme-dark,
+.theme-light {
+    /* Text Colors */
+    --SKIN-text-primary: hsla(240, 0%, 100%, 1);
+    --SKIN-text-secondary: hsla(240, 3%, 75%, 1);
+    --SKIN-text-tertiary: hsla(240, 0%, 50%, 1);
+
+    /* Interactive Colors */
+    --SKIN-interactive-normal: hsla(var(--SKIN-interactive-h), var(--SKIN-interactive-s), calc(var(--SKIN-interactive-l) - var(--SKIN-grading-3)), var(--SKIN-alpha-2));
+    --SKIN-interactive-hover: hsla(var(--SKIN-interactive-h), var(--SKIN-interactive-s), calc(var(--SKIN-interactive-l) - var(--SKIN-grading-3)), var(--SKIN-alpha-1));
+    --SKIN-interactive-active: hsla(var(--SKIN-interactive-h), var(--SKIN-interactive-s), var(--SKIN-interactive-l), var(--SKIN-alpha-1));
+    --SKIN-interactive-muted: hsla(var(--SKIN-interactive-h), var(--SKIN-interactive-s), var(--SKIN-interactive-l), var(--SKIN-alpha-3));
+
+    /* Background Colors */
+    --SKIN-background-primary: hsla(var(--SKIN-background-h), var(--SKIN-background-s), calc(var(--SKIN-background-l) + var(--SKIN-grading-1)), var(--SKIN-alpha-1));
+    --SKIN-background-secondary: hsla(var(--SKIN-background-h), var(--SKIN-background-s), calc(var(--SKIN-background-l) + var(--SKIN-grading-2)), var(--SKIN-alpha-1));
+    --SKIN-background-tertiary: hsla(var(--SKIN-background-h), var(--SKIN-background-s), calc(var(--SKIN-background-l) + var(--SKIN-grading-3)), var(--SKIN-alpha-1));
+}
+
+/*? Advanced */
+.theme-dark,
+.theme-light {
+    /* Grading */
+    --SKIN-grading-1: 3%;
+    --SKIN-grading-2: 6%;
+    --SKIN-grading-3: 9%;
+
+    /* Alpha */
+    --SKIN-alpha-1: 1.0;
+    --SKIN-alpha-2: 0.7;
+    --SKIN-alpha-3: 0.4;
+
+    /* Interactive */
+    --SKIN-interactive-h: 213;
+    --SKIN-interactive-s: 13%;
+    --SKIN-interactive-l: 96%;
+
+    /* Background */
+    --SKIN-background-h: 252;
+    --SKIN-background-s: 10%;
+    --SKIN-background-l: 4%;
+}

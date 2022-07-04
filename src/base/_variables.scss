@@ -1,0 +1,65 @@
+//? ======= [ Fonts ] ======= // 
+:root {
+    --font:  "Source Sans 3", sans-serif;
+    
+    --font-primary: var(--font);
+    --font-display: var(--font);
+    --font-code: var(var(--font-code), "JetBrainsMono"), "Fira Code", var(--font), sans-serif;
+    --font-headline: var(--font),  Ginto Nord,Ginto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    --font-korean: var(--font), Whitney, "Apple SD Gothic Neo","NanumBarunGothic","맑은 고딕","Malgun Gothic",Gulim,굴림,Dotum,돋움,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    --font-japanese: var(--font), Whitney, Hiragino Sans, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,Osaka, "MS PGothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-chinese-simplified: var(--font), Whitney, "Microsoft YaHei New", 微软雅黑, "Microsoft Yahei", "Microsoft JhengHei", 宋体, SimSun, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-chinese-traditional: var(--font), Whitney, "Microsoft JhengHei", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft YaHei", 微軟雅黑, 宋体, SimSun, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+//? ======= [ Custom Variables ] ======= //
+:root {
+    // Border Radius
+    --radius-primary: 15px;
+    --radius-secondary: 10px;
+    --radius-tertiary: 5px;
+
+    // Width
+    --sl-width: 80px;
+    --sl-folder-left: 15px; /* if u change the sl width the folders will be misplaced, play with this value to get folders back to place */
+    --cl-width: 260px;
+    --ml-width: 300px;
+
+    // Transition Duration
+    --transition-duration-primary: .2s;
+    --transition-duration-secondary: .3s;
+    --transition-duration-tertiary: .5s;
+
+    // Transition timing function
+    --transition-timing-function-primary: ease;
+    --transition-timing-function-secondary: linear;
+}
+
+//? ======= [ Colors ] ======= //
+.theme-dark, .theme-light {
+    --header-primary:  var(--SKIN-text-primary);
+    --header-secondary: var(--SKIN-text-secondary);
+    
+    --text-normal: var(--SKIN-text-secondary);
+    --text-muted: var(--SKIN-text-tertiary);
+
+    --interactive-normal: var(--SKIN-interactive-normal);
+    --interactive-hover: var(--SKIN-interactive-hover);
+    --interactive-active: var(--SKIN-interactive-active);
+    --interactive-muted: var(--SKIN-interactive-muted);
+
+    --channels-default: var(--text-muted);
+    --channel-icon: var(--channels-default);
+    --channel-text-area-placeholder: var(--channels-default);
+
+    --background-primary: var(--SKIN-background-primary);
+    --background-secondary: var(--SKIN-background-secondary);
+    --background-secondary-alt: var(--SKIN-background-tertiary);
+    --background-tertiary: var(--background-primary);
+    --channeltextarea-background: var(--background-secondary);
+
+    --scrollbar-thin-track: transparent;
+    --scrollbar-auto-thumb: transparent;
+    --scrollbar-auto-track: transparent;
+}

@@ -1,0 +1,9 @@
+// Fixes the members not being able to clicked when scroller is stuck
+.scrolling-20Of9p .content-2a4AW9 {
+    pointer-events: auto;
+}
+
+// Fixes non var colors in places
+.peopleColumn-1wMU14, .tabBody-2dgbAs, .content-1jQy2l, .chat-2ZfjoI.background-fkKrXt {
+    background-color: var(--background-primary);
+}

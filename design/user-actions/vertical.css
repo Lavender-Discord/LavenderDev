@@ -1,0 +1,56 @@
+/* Server list height */
+.wrapper-1_HaEi {
+    margin-bottom: 200px;
+}
+
+.wrapper-1_HaEi .scroller-3X7KbA {
+    padding-bottom: 20px;
+}
+
+.panels-3wFtMD .container-YkUktl:last-child {
+    height: 40px;
+    padding-bottom: 5px;
+}
+
+/* Buttons */
+.panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF {
+    position: fixed;
+    display: flex;
+    border-radius: var(--radius-secondary);
+    flex-direction: column;
+    align-items: center;
+    bottom: 0px;
+    left: 0px;
+    width: var(--sl-width, 70px);
+    padding: 20px 0;
+    padding-bottom: 12px;
+    margin: 0px;
+    grid-gap: 7px;
+}
+
+.panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF::before {
+    content: '';
+    width: 35px;
+    height: 1px;
+    margin-bottom: 5px;
+    background-color: var(--interactive-muted);
+}
+
+/* Buttons */
+.panels-3wFtMD>.container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur {
+    background: var(--background-secondary-alt);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transition: .3s ease;
+}
+
+.panels-3wFtMD>.container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur:hover {
+    background: var(--brand-experiment);
+    border-radius: var(--radius-primary);
+}
+
+/* Remove Game Activity */
+.panels-3wFtMD>.container-YkUktl:last-child .button-12Fmur:nth-last-child(4) {
+    display: none;
+}

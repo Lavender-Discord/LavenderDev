@@ -1,0 +1,19 @@
+.container-2Hi7Km, .container-xwOzwi{
+    background-color: var(--background-secondary);
+}
+
+.icon-2IDTxf {
+    border: 4px solid transparent;
+}
+
+.container-3HMTms {
+    transition: .2s linear;
+    &:hover {
+        background-color: var(--background-primary);
+        
+        .details-1KGBHp div[aria-label] {
+            background-color: var(--background-secondary);
+        }
+    }
+    .details-1KGBHp div[aria-label]{transition: .2s linear;}
+}

@@ -1,0 +1,145 @@
+.callContainer-HtHELf {
+    background-color: var(--background-primary);
+
+    .gradientContainer-phMG8d {
+        background: none;
+    }
+
+    .root-22AK9z.idle-39sGPO .bottomControls-31YuPK,
+    .root-22AK9z.idle-39sGPO .topControls-23RE3h,
+    .root-22AK9z.idle-39sGPO .chatButton-10jXXp:not(.chatButtonShowing-1aD1ch) {
+        opacity: 1;
+        transform: none;
+    }
+
+    .topControls-23RE3h .headerWrapper-1ULEPv {
+        
+        .children-3xh0VB {
+            .base-ZDDK0g {
+                font-size: 20px;
+            }
+        }
+    }
+
+    .bottomControls-31YuPK {
+        .flex-2S1XBF:first-child .leftTrayIcon-3kMl25 {
+            background-color: var(--background-secondary);
+
+            &:hover {
+                background-color: var(--background-secondary-alt);
+            }
+        }
+    }
+
+    .root-22AK9z {
+        .videoGrid-1tZm-F {
+            max-height: calc(100% - 70px);
+
+            .row-jreWvj {
+                .tile-3GyaDQ {
+                    .wrapper-9CUbzN {
+                        .tile-2TcwiO {
+                            border-radius: 35px;
+
+                            .overlay-2RIWoZ {
+                                display: flex;
+                                flex-direction: row-reverse;
+                                padding: 15px;
+
+                                .overlayTitle-2efoIF {
+                                    &.idle-3MGs7O{opacity: 1;}
+
+                                    border-radius: 13px;
+                                    height: auto;
+                                    width: auto;
+
+                                    .overlayTitleText-3xOA3Q {
+                                        padding: 5px 10px;
+                                        font-weight: 600;
+                                        font-size: 18px;
+                                    }
+                                }
+
+                                .statusContainer-2yJ1oM .status-15kcmy {
+                                    border-radius: 35%;
+                                    width: 22px;
+                                    height: 22px;
+                                    padding: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .wrapper-3t3Yqv {
+            display: flex;
+            margin-bottom: 10px;
+
+            button {
+                border-radius: 35%;
+                transform: scale(0.95);
+            }
+
+            svg foreignObject {
+                mask: none;
+            }
+
+            .contextMenuNub-NuTZ_U {
+                border: 5px solid var(--background-primary);
+                transform: translate(3px, 3px);
+            }
+
+            .colorable-3rVGna.primaryDark-2UJt1G {
+                background-color: var(--background-secondary);
+
+                &:hover {
+                    background-color: var(--background-secondary-alt);
+                }
+            }
+
+            .controlButton-2PMNom.contextMenuContainer-1RO4DQ:first-of-type {
+                order: 1;
+            }
+
+            .controlButton-2PMNom.contextMenuContainer-1RO4DQ:nth-child(5) {
+                order: 2;
+
+                .colorable-3rVGna.white-11auuQ {
+                    background: var(--background-secondary);
+
+                    &:hover {
+                        background-color: var(--background-secondary-alt);
+                    }
+                }
+
+                .colorable-3rVGna.white-11auuQ, .colorable-3rVGna.white-11auuQ .centerIcon-JYpTUi{
+                    color: #fff;
+                }
+            }
+
+            div:nth-child(7) {
+                order: 3;
+                margin: 0 5px;
+
+                .controlButton-2PMNom {
+                    transform: scale(1.1);
+                    transition: .15s ease;
+
+                    &:hover {
+                        opacity: 0.9;
+                    }
+                }
+            }
+
+            div:nth-child(4) {
+                order: 4;
+            }
+
+            .buttonContainer-1sjtPU:nth-child(3) {
+                order: 5;
+            }
+        }
+    }
+}
