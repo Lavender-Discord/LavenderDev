@@ -1,6 +1,6 @@
 /* Server list height */
 .wrapper-1_HaEi {
-    margin-bottom: 200px;
+    margin-bottom: 195px;
 }
 
 .wrapper-1_HaEi .scroller-3X7KbA {
@@ -22,26 +22,27 @@
     bottom: 0px;
     left: 0px;
     width: var(--sl-width, 70px);
-    padding: 20px 0;
     padding-bottom: 12px;
     margin: 0px;
-    grid-gap: 7px;
+    grid-gap: 10px;
 }
 
 .panels-3wFtMD .container-YkUktl:last-child .flex-2S1XBF::before {
     content: '';
-    width: 35px;
+    width: 30px;
     height: 1px;
-    margin-bottom: 5px;
-    background-color: var(--interactive-muted);
+    margin-bottom: 0px;
+    background-color: var(--background-modifier-accent);
 }
 
 /* Buttons */
 .panels-3wFtMD>.container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur {
     background: var(--background-secondary-alt);
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
     transition: .3s ease;
 }
 

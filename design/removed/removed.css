@@ -1,0 +1,6 @@
+/* Nitro Button in server list */
+.scroller-3X7KbA>[aria-label]+.listItem-3SmSlK,
+.tutorialContainer-1pL9QS+.listItem-3SmSlK>.pill-1NRFie~*,
+.tree-3agP2X+.fixedBottomList-1yrBla {
+    display: none;
+}

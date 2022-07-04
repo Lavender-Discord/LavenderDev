@@ -36,10 +36,24 @@
             border-radius: 50px;
         }
 
+        .closedFolderIconWrapper-3tRb2d {
+            div {
+                height: 14px;
+                width: 14px;
+            }
+        }
+
+        // Mention count badge
+        .lowerBadge-3WTshO .numberBadge-37OJ3S {
+            border-radius: var(--radius-tertiary);
+            transform: translate(1px, 1px);
+        }
+
         // Pills
         .pill-2RsI5Q.wrapper-z5ab_q,
         .pill-L_aLMQ.wrapper-z5ab_q,
         .pill-1eBbnB.wrapper-z5ab_q,
+        .pill-22lZHo.wrapper-z5ab_q,
         .pill-1NRFie {
             left: 2px;
             .item-2LIpTv {
@@ -47,7 +61,8 @@
                 border-radius: 2px !important;
                 margin-left: 0px;
                 width: 3px;
-            
+                transition: var(--transition-duration-primary) var(--transition-timing-function-primary);
+
                 // Unread
                 &[style*="height: 8px;"]{
                     height: 10px !important;
@@ -55,7 +70,7 @@
 
                 // Selected
                 &[style*="height: 40px;"]{
-                    height: 25px !important;
+                    height: 30px !important;
                 }
             }
         }
