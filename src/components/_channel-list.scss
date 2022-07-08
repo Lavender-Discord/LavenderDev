@@ -4,6 +4,7 @@
     border-radius: 10px !important;
     margin-right: 8px;
     margin-bottom: 5px;
+    height: 100%;
 
     div[aria-hidden="true"][style*="height: 84px;"] {
         display: none;
@@ -292,6 +293,13 @@
         padding: 10px 0;
         border-radius: var(--radius-secondary);
         background-color: var(--background-secondary);
+
+        &:last-child {
+            background-color: var(--background-secondary);
+            height: 100px;
+            position: relative;
+            margin-bottom: 5px;
+        }
 
         .flex-2S1XBF {
             display: grid;

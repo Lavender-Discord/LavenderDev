@@ -38,28 +38,105 @@
 
 //? ======= [ Colors ] ======= //
 .theme-dark, .theme-light {
+    // Text Colors
     --header-primary:  var(--SKIN-text-primary);
     --header-secondary: var(--SKIN-text-secondary);
-    
     --text-normal: var(--SKIN-text-secondary);
     --text-muted: var(--SKIN-text-tertiary);
 
+    // Icons and etc colos
     --interactive-normal: var(--SKIN-interactive-normal);
     --interactive-hover: var(--SKIN-interactive-hover);
     --interactive-active: var(--SKIN-interactive-active);
     --interactive-muted: var(--SKIN-interactive-muted);
 
+    // Channels Colors
     --channels-default: var(--text-muted);
     --channel-icon: var(--channels-default);
     --channel-text-area-placeholder: var(--channels-default);
-
-    --background-primary: var(--SKIN-background-primary);
-    --background-secondary: var(--SKIN-background-secondary);
-    --background-secondary-alt: var(--SKIN-background-tertiary);
-    --background-tertiary: var(--background-primary);
     --channeltextarea-background: var(--background-secondary);
 
+    // Background Colors
+    --background-primary: var(--SKIN-background-primary);
+    --background-secondary: var(--SKIN-background-secondary);
+    --background-secondary-alt: var(--SKIN-background-secondary-alt);
+    --background-tertiary: var(--SKIN-background-tertiary);
+
+    // Accent Colors
+    --blurple-replace: var(--SKIN-accent-primary);
+    --brand-experiment: var(--SKIN-accent-primary);
+    --brand-experiment-hover: var(--SKIN-accent-secondary);
+
+    // Green Colors
+    --green-primary: var(--SKIN-green-primary);
+    --green-secondary: var(--SKIN-green-secondary);
+    --green-tertiary: var(--SKIN-green-tertiary);
+
+    // Yellow Colors
+    --yellow-primary: var(--SKIN-yellow-primary);
+    --yellow-secondary: var(--SKIN-yellow-secondary);
+    --yellow-tertiary: var(--SKIN-yellow-tertiary);
+    
+    // Red Colors
+    --red-primary: var(--SKIN-red-primary);
+    --red-secondary: var(--SKIN-red-secondary);
+    --red-tertiary: var(--SKIN-red-tertiary);
+
+    // Purple Colors
+    --purple-primary: var(--SKIN-purple-primary);
+    --purple-secondary: var(--SKIN-purple-secondary);
+    --purple-tertiary: var(--SKIN-purple-tertiary);
+
+    // Scrollbars
     --scrollbar-thin-track: transparent;
     --scrollbar-auto-thumb: transparent;
     --scrollbar-auto-track: transparent;
+}
+
+[data-popout-root],
+html {
+    --brand-experiment-100: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*77.8%), 98.2%);
+    --brand-experiment-130: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*87.5%), 96.9%);
+    --brand-experiment-160: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*84.6%), 94.9%);
+    --brand-experiment-200: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*83.3%), 92.9%);
+    --brand-experiment-230: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*87%), 91%);
+    --brand-experiment-260: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*86.2%), 88.6%);
+    --brand-experiment-300: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*86.1%), 85.9%);
+    --brand-experiment-330: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.1%), 81.6%);
+    --brand-experiment-360: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*86.1%), 77.5%);
+    --brand-experiment-400: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*86.1%), 71.8%);
+    --brand-experiment-430: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.7%), 69.8%);
+    --brand-experiment-460: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.5%), 67.5%);
+    --brand-experiment-500: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%);
+    --brand-experiment-530: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*66.7%), 58.8%);
+    --brand-experiment-560: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*51.4%), 52.4%);
+    --brand-experiment-600: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*46.7%), 44.1%);
+    --brand-experiment-630: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*46.7%), 38.2%);
+    --brand-experiment-660: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*47.1%), 33.3%);
+    --brand-experiment-700: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*47%), 25.9%);
+    --brand-experiment-730: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*46.8%), 24.3%);
+    --brand-experiment-760: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*46.9%), 22.2%);
+    --brand-experiment-800: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*47.5%), 19.4%);
+    --brand-experiment-830: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*47.4%), 14.9%);
+    --brand-experiment-860: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*46.9%), 9.6%);
+    --brand-experiment-900: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*50%), 3.1%);
+    --brand-experiment-05a: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.05);
+    --brand-experiment-10a: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.1);
+    --brand-experiment-15a: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.15);
+    --brand-experiment-20a: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.2);
+    --brand-experiment-25a: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.25);
+    --brand-experiment-30a: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.3);
+    --brand-experiment-35a: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.35);
+    --brand-experiment-40a: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.4);
+    --brand-experiment-45a: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.45);
+    --brand-experiment-50a: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.5);
+    --brand-experiment-55a: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.55);
+    --brand-experiment-60a: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.6);
+    --brand-experiment-65a: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.65);
+    --brand-experiment-70a: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.7);
+    --brand-experiment-75a: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.75);
+    --brand-experiment-80a: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.8);
+    --brand-experiment-85a: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.85);
+    --brand-experiment-90a: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.9);
+    --brand-experiment-95a: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.95);
 }

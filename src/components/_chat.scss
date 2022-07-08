@@ -4,7 +4,6 @@
 }
 
 .chat-2ZfjoI {
-
   // Channel bar
   .title-31SJ6t.container-ZMc96U {
     background-color: var(--background-secondary);
@@ -57,7 +56,6 @@
     .managedReactiveScroller-1lEEh3 {
       scrollbar-width: auto !important;
       overflow-y: scroll !important;
-      margin-right: 5px;
 
       &::-webkit-scrollbar {
         width: 0.3em !important;
@@ -141,6 +139,7 @@
     .slateTextArea-27tjG0 {
       caret-color: var(--brand-experiment);
       left: 20px;
+      padding-right: 30px;
     }
 
     // base buttons
@@ -156,10 +155,15 @@
       height: var(--textbar-button-height);
       border-radius: var(--radius-secondary);
       background-color: var(--channeltextarea-background);
-      transition: .3s ease;
+      transition: .2s linear;
+      svg path{transition: .2s linear;}
 
       &:hover {
         background-color: var(--background-secondary-alt);
+
+        svg path {
+          fill: var(--interactive-hover);
+        }
       }
     }
   }
@@ -213,6 +217,9 @@
     
     .buttons-uaqb-5>:last-child { // send message button
         margin-left: -5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         
         button {
             background-color: transparent;
@@ -247,6 +254,10 @@
           &[disabled] {
             &::before {
                 background-color: var(--channeltextarea-background);
+            }
+
+            &:hover svg path {
+              fill: var(--interactive-muted);
             }
           }
 
@@ -462,6 +473,10 @@
 
   /* [ --EDITING-- ] */
   .channelTextArea-220_Gz > div {
-   border-radius: var(--radius-secondary);
+    border-radius: var(--radius-secondary);
+    
+    .editor-H2NA06 {
+      left: 0px !important;
+    }
   }
 }
