@@ -72,6 +72,86 @@
       }
     }
 
+    .avatar-2e8lTP.clickable-31pE3P {
+      &:hover {
+        transform: scale(1.08);
+        transform-origin: center;
+        box-shadow: var(--elevation-high);
+      }
+    }
+
+    // Message
+    .message-2CShn3.cozyMessage-1DWF9U {
+      transition: .2s ease;
+      div, span, img{transition: inherit;}
+
+      &:not(.mentioned-Tre-dv), &.message-2CShn3.selected-2LX7Jy {
+        &:before {
+          content: ' ';
+          background-color: var(--brand-experiment);
+          position: absolute;
+          left: -10px;
+          height: 70%;
+          top: 15%;
+          bottom: 0;
+          width: 2px;
+          border-radius: var(--radius-tertiary);
+          transition: inherit;
+        }
+
+        &:hover, &.message-2CShn3.selected-2LX7Jy {
+          &:before {
+            left: 10px;
+          }
+  
+          .contents-2MsGLg,[id*="message-accessories"]{margin-left: 10px;}
+          .contents-2MsGLg img{margin-left: 10px;}
+          .latin24CompactTimeStamp-2pXUBq.timestamp-p1Df1m.timestampVisibleOnHover-9PEuZS {margin-left: 10px;}
+        }
+      }
+
+      // Mentioned Message
+      &.mentioned-Tre-dv {
+        .contents-2MsGLg{margin-left: 10px;}
+        .contents-2MsGLg img{margin-left: 10px;}
+        .latin24CompactTimeStamp-2pXUBq.timestamp-p1Df1m.timestampVisibleOnHover-9PEuZS {margin-left: 10px;}
+
+        &:before {
+          background-color: var(--red-primary);
+          left: 10px;
+          height: 70%;
+          top: 15%;
+          border-radius: var(--radius-tertiary);
+        }
+      }
+    }
+
+    // The message action buttons on hovering a message
+    .buttonContainer-1502pf .wrapper-2vIMkT {
+      background-color: transparent;
+      border: none;
+      outline: none;
+      box-shadow: none;
+      width: 100%;
+      height: 100%;
+      grid-gap: 5px;
+
+      .button-3bklZh {
+        transition: .2s linear;
+        background-color: var(--background-secondary);
+        border-radius: var(--radius-secondary);
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: var(--elevation-low);
+
+        &:hover {
+          background-color: var(--background-secondary-alt);
+        }
+      }
+    }
+
     // Images in chat
     .imageWrapper-oMkQl4 {
       border-radius: var(--radius-secondary);
@@ -138,7 +218,7 @@
 
     .slateTextArea-27tjG0 {
       caret-color: var(--brand-experiment);
-      left: 20px;
+      padding-left: 20px;
       padding-right: 30px;
     }
 
@@ -173,7 +253,7 @@
   }
 
   .editor-H2NA06{
-    left: 20px !important;
+    padding-left: 20px !important;
   }
   
   .slateContainer-3x9zil {
@@ -200,8 +280,14 @@
     // text area
     .textArea-2CLwUE {
       margin-left: -16px;
+      transition: .2s linear;
+
       & > div {
         padding-right: 0px;
+      }
+
+      .slateTextArea-27tjG0 {
+        border-radius: var(--radius-secondary);
       }
     }
     

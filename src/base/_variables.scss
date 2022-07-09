@@ -63,9 +63,9 @@
     --background-tertiary: var(--SKIN-background-tertiary);
 
     // Accent Colors
-    --blurple-replace: var(--SKIN-accent-primary);
-    --brand-experiment: var(--SKIN-accent-primary);
-    --brand-experiment-hover: var(--SKIN-accent-secondary);
+    --accent-primary: var(--SKIN-accent-primary);
+    --accent-secondary: var(--SKIN-accent-secondary);
+    --accent-tertiary: var(--SKIN-accent-tertiary);
 
     // Green Colors
     --green-primary: var(--SKIN-green-primary);
@@ -87,12 +87,68 @@
     --purple-secondary: var(--SKIN-purple-secondary);
     --purple-tertiary: var(--SKIN-purple-tertiary);
 
+    // Brand / Accents
+    --blurple-replace: var(--accent-primary);
+    --brand-experiment: var(--accent-primary);
+    --brand-experiment-hover: var(--accent-secondary);
+    --focus-primary: var(--brand-experiment);
+    --text-brand: var(--brand-experiment);
+    --control-brand-foreground: var(--brand-experiment);
+    --control-brand-foreground-new: var(--brand-experiment);
+
+    // Positive - Greens
+    --info-positive-foreground: var(--green-primary);
+    --info-positive-background: var(--green-primary);
+    --info-positive-text: var(--header-primary);
+    --status-positive-background: var(--green-primary);
+    --status-positive-text: var(--header-primary);
+    --text-positive: var(--green-primary);
+
+    // Warning - Yellows
+    --info-warning-foreground: var(--yellow-primary);
+    --info-warning-background: var(--yellow-primary);
+    --info-warning-text: var(--header-primary);
+    --status-warning-background: var(--yellow-primary);
+    --status-warning-text: var(--header-primary);
+    --text-warning: var(--yellow-primary);
+
+    // Danger - Reds
+    --info-danger-foreground: var(--red-primary);
+    --info-danger-background: var(--red-primary);
+    --info-danger-text: var(--header-primary);
+    --status-danger-background: var(--red-primary);
+    --status-danger-text: var(--header-primary);
+    --text-danger: var(--red-primary);
+
+    // Message
+    --background-mentioned: var(--SKIN-mentioned-message-normal);
+    --background-mentioned-hover: var(--SKIN-mentioned-message-hover);
+    --background-mentioned-border: var(--red-primary);
+    --background-message-hover: var(--SKIN-message-hover);
+
+    // Other Colors
+    --spotify-color: var(--green-primary);
+    --info-help-background: var(--brand-experiment-600);
+    --info-help-foreground: var(--brand-experiment-600);
+    --info-help-text: var(--header-secondary);
+
+    // Shadows
+    --elevation-stroke: 0 0 0 1px rgba(4, 4, 5, 0.15);
+    --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
+    --elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.16);
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+
     // Scrollbars
     --scrollbar-thin-track: transparent;
     --scrollbar-auto-thumb: transparent;
     --scrollbar-auto-track: transparent;
+    --scrollbar-auto-scrollbar-color-track: transparent;
+    --scrollbar-thin-thumb: var(--background-secondary-alt);
+    --scrollbar-auto-thumb: var(--background-secondary-alt);
+    --scrollbar-auto-scrollbar-color-thumb: var(--background-secondary-alt);
 }
 
+// Brand Colors - Accent
 [data-popout-root],
 html {
     --brand-experiment-100: hsl(var(--SKIN-accent-h), calc(var(--saturation-factor, 1)*77.8%), 98.2%);
