@@ -174,7 +174,7 @@
             top: 17%;
             left: 0px;
             border-radius: var(--radius-secondary);
-            background-color: var(--brand-experiment);
+            background-color: var(--accent-primary);
         }
 
         .mainContent-20q_Hp{margin-left: 0px; transition: var(--transition-duration-primary) var(--transition-timing-function-primary);}
@@ -207,7 +207,7 @@
 
     // Unread indicator next to channel
     .iconVisibility-vptxma.modeUnread-3Cxepe .unread-36eUEm {
-        background-color: var(--brand-experiment);
+        background-color: var(--accent-primary);
         height: 10px;
         width: 2px;
         left: 0px;
@@ -226,7 +226,7 @@
 
     //"New Unread"
     .unread-2wipsx {
-        background-color: var(--brand-experiment);
+        background-color: var(--accent-primary);
         color: var(--header-primary);
         opacity: 1;
     }

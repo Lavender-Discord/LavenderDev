@@ -83,12 +83,12 @@
     // Message
     .message-2CShn3.cozyMessage-1DWF9U {
       transition: .2s ease;
-      div, span, img{transition: inherit;}
+      div, span, img{transition: .2s ease;}
 
       &:not(.mentioned-Tre-dv), &.message-2CShn3.selected-2LX7Jy {
         &:before {
           content: ' ';
-          background-color: var(--brand-experiment);
+          background-color: var(--accent-primary);
           position: absolute;
           left: -10px;
           height: 70%;
@@ -96,7 +96,7 @@
           bottom: 0;
           width: 2px;
           border-radius: var(--radius-tertiary);
-          transition: inherit;
+          transition: .2s ease;
         }
 
         &:hover, &.message-2CShn3.selected-2LX7Jy {
@@ -105,7 +105,7 @@
           }
   
           .contents-2MsGLg,[id*="message-accessories"]{margin-left: 10px;}
-          .contents-2MsGLg img{margin-left: 10px;}
+          .contents-2MsGLg .avatar-2e8lTP{margin-left: 10px;}
           .latin24CompactTimeStamp-2pXUBq.timestamp-p1Df1m.timestampVisibleOnHover-9PEuZS {margin-left: 10px;}
         }
       }
@@ -113,7 +113,7 @@
       // Mentioned Message
       &.mentioned-Tre-dv {
         .contents-2MsGLg{margin-left: 10px;}
-        .contents-2MsGLg img{margin-left: 10px;}
+        .contents-2MsGLg .avatar-2e8lTP{margin-left: 10px;}
         .latin24CompactTimeStamp-2pXUBq.timestamp-p1Df1m.timestampVisibleOnHover-9PEuZS {margin-left: 10px;}
 
         &:before {
@@ -135,6 +135,7 @@
       width: 100%;
       height: 100%;
       grid-gap: 5px;
+      transition: .2s linear;
 
       .button-3bklZh {
         transition: .2s linear;
@@ -145,8 +146,9 @@
         justify-content: center;
         align-items: center;
         box-shadow: var(--elevation-low);
-
-        &:hover {
+        svg{transition: .2s linear;}
+        
+        &:hover, &.selected-69H4ua {
           background-color: var(--background-secondary-alt);
         }
       }
@@ -217,7 +219,7 @@
     }
 
     .slateTextArea-27tjG0 {
-      caret-color: var(--brand-experiment);
+      caret-color: var(--accent-primary);
       padding-left: 20px;
       padding-right: 30px;
     }
@@ -353,14 +355,14 @@
               color: var(--interactive-active);
             }
             &::before {
-              background: var(--brand-experiment) !important;
+              background: var(--accent-primary) !important;
             }
             // for more "reactive" buttons, matches normal buttons.
             &:hover::before {
-              background: var(--brand-experiment) !important;
+              background: var(--accent-primary) !important;
             }
             &:active::before {
-              background: var(--brand-experiment) !important;
+              background: var(--accent-primary) !important;
             }
           }
         }
@@ -423,7 +425,7 @@
         }
 
         .colorLink-2apWfY {
-          color: var(--brand-experiment);
+          color: var(--accent-primary);
         }
     }
 
