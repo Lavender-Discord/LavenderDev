@@ -18,29 +18,29 @@
     --SKIN-background-tertiary: var(--SKIN-background-primary);
 
     /* Accent Color */
-    --SKIN-accent-primary: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1) * var(--SKIN-accent-s)), calc(var(--SKIN-accent-l) - 0% + var(--SKIN-lightness)), var(--SKIN-accent-a));
-    --SKIN-accent-secondary: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1) * var(--SKIN-accent-s)), calc(var(--SKIN-accent-l) - 10% + var(--SKIN-lightness)), var(--SKIN-accent-a));
-    --SKIN-accent-tertiary: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1) * var(--SKIN-accent-s)), calc(var(--SKIN-accent-l) - 20% + var(--SKIN-lightness)), var(--SKIN-accent-a));
+    --SKIN-accent-primary: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1) * var(--SKIN-accent-s)), calc(var(--SKIN-accent-l) + var(--SKIN-lightness)), calc(var(--SKIN-accent-a) - 0.0));
+    --SKIN-accent-secondary: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1) * var(--SKIN-accent-s)), calc(var(--SKIN-accent-l) + var(--SKIN-lightness)), calc(var(--SKIN-accent-a) - 0.2));
+    --SKIN-accent-tertiary: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1) * var(--SKIN-accent-s)), calc(var(--SKIN-accent-l) + var(--SKIN-lightness)), calc(var(--SKIN-accent-a) - 0.4));
 
     /* Green Color */
-    --SKIN-green-primary: hsla(var(--SKIN-green-h), calc(var(--saturation-factor, 1) * var(--SKIN-green-s)), calc(var(--SKIN-green-l) - 0% + var(--SKIN-lightness)), var(--SKIN-green-a));
-    --SKIN-green-secondary: hsla(var(--SKIN-green-h), calc(var(--saturation-factor, 1) * var(--SKIN-green-s)), calc(var(--SKIN-green-l) - 10% + var(--SKIN-lightness)), var(--SKIN-green-a));
-    --SKIN-green-tertiary: hsla(var(--SKIN-green-h), calc(var(--saturation-factor, 1) * var(--SKIN-green-s)), calc(var(--SKIN-green-l) - 20% + var(--SKIN-lightness)), var(--SKIN-green-a));
+    --SKIN-green-primary: hsla(var(--SKIN-green-h), calc(var(--saturation-factor, 1) * var(--SKIN-green-s)), calc(var(--SKIN-green-l) + var(--SKIN-lightness)), calc(var(--SKIN-green-a) - 0.0));
+    --SKIN-green-secondary: hsla(var(--SKIN-green-h), calc(var(--saturation-factor, 1) * var(--SKIN-green-s)), calc(var(--SKIN-green-l) + var(--SKIN-lightness)), calc(var(--SKIN-green-a) - 0.2));
+    --SKIN-green-tertiary: hsla(var(--SKIN-green-h), calc(var(--saturation-factor, 1) * var(--SKIN-green-s)), calc(var(--SKIN-green-l) + var(--SKIN-lightness)), calc(var(--SKIN-green-a) - 0.4));
 
     /* Yellow Color */
-    --SKIN-yellow-primary: hsla(var(--SKIN-yellow-h), calc(var(--saturation-factor, 1) * var(--SKIN-yellow-s)), calc(var(--SKIN-yellow-l) - 0% + var(--SKIN-lightness)), var(--SKIN-yellow-a));
-    --SKIN-yellow-secondary: hsla(var(--SKIN-yellow-h), calc(var(--saturation-factor, 1) * var(--SKIN-yellow-s)), calc(var(--SKIN-yellow-l) - 10% + var(--SKIN-lightness)), var(--SKIN-yellow-a));
-    --SKIN-yellow-tertiary: hsla(var(--SKIN-yellow-h), calc(var(--saturation-factor, 1) * var(--SKIN-yellow-s)), calc(var(--SKIN-yellow-l) - 20% + var(--SKIN-lightness)), var(--SKIN-yellow-a));
+    --SKIN-yellow-primary: hsla(var(--SKIN-yellow-h), calc(var(--saturation-factor, 1) * var(--SKIN-yellow-s)), calc(var(--SKIN-yellow-l) + var(--SKIN-lightness)), calc(var(--SKIN-yellow-a) - 0.0));
+    --SKIN-yellow-secondary: hsla(var(--SKIN-yellow-h), calc(var(--saturation-factor, 1) * var(--SKIN-yellow-s)), calc(var(--SKIN-yellow-l) + var(--SKIN-lightness)), calc(var(--SKIN-yellow-a) - 0.2));
+    --SKIN-yellow-tertiary: hsla(var(--SKIN-yellow-h), calc(var(--saturation-factor, 1) * var(--SKIN-yellow-s)), calc(var(--SKIN-yellow-l) + var(--SKIN-lightness)), calc(var(--SKIN-yellow-a) - 0.4));
 
     /* Red Color */
-    --SKIN-red-primary: hsla(var(--SKIN-red-h), calc(var(--saturation-factor, 1) * var(--SKIN-red-s)), calc(var(--SKIN-red-l) - 0% + var(--SKIN-lightness)), var(--SKIN-red-a));
-    --SKIN-red-secondary: hsla(var(--SKIN-red-h), calc(var(--saturation-factor, 1) * var(--SKIN-red-s)), calc(var(--SKIN-red-l) - 10% + var(--SKIN-lightness)), var(--SKIN-red-a));
-    --SKIN-red-tertiary: hsla(var(--SKIN-red-h), calc(var(--saturation-factor, 1) * var(--SKIN-red-s)), calc(var(--SKIN-red-l) - 20% + var(--SKIN-lightness)), var(--SKIN-red-a));
+    --SKIN-red-primary: hsla(var(--SKIN-red-h), calc(var(--saturation-factor, 1) * var(--SKIN-red-s)), calc(var(--SKIN-red-l) + var(--SKIN-lightness)), calc(var(--SKIN-red-a) - 0.0));
+    --SKIN-red-secondary: hsla(var(--SKIN-red-h), calc(var(--saturation-factor, 1) * var(--SKIN-red-s)), calc(var(--SKIN-red-l) + var(--SKIN-lightness)), calc(var(--SKIN-red-a) - 0.2));
+    --SKIN-red-tertiary: hsla(var(--SKIN-red-h), calc(var(--saturation-factor, 1) * var(--SKIN-red-s)), calc(var(--SKIN-red-l) + var(--SKIN-lightness)), calc(var(--SKIN-red-a) - 0.4));
 
     /* Purple Color */
-    --SKIN-purple-primary: hsla(var(--SKIN-purple-h), calc(var(--saturation-factor, 1) * var(--SKIN-purple-s)), calc(var(--SKIN-purple-l) - 0% + var(--SKIN-lightness)), var(--SKIN-purple-a));
-    --SKIN-purple-secondary: hsla(var(--SKIN-purple-h), calc(var(--saturation-factor, 1) * var(--SKIN-purple-s)), calc(var(--SKIN-purple-l) - 10% + var(--SKIN-lightness)), var(--SKIN-purple-a));
-    --SKIN-purple-tertiary: hsla(var(--SKIN-purple-h), calc(var(--saturation-factor, 1) * var(--SKIN-purple-s)), calc(var(--SKIN-purple-l) - 20% + var(--SKIN-lightness)), var(--SKIN-purple-a));
+    --SKIN-purple-primary: hsla(var(--SKIN-purple-h), calc(var(--saturation-factor, 1) * var(--SKIN-purple-s)), calc(var(--SKIN-purple-l) + var(--SKIN-lightness)), calc(var(--SKIN-purple-a) - 0.0));
+    --SKIN-purple-secondary: hsla(var(--SKIN-purple-h), calc(var(--saturation-factor, 1) * var(--SKIN-purple-s)), calc(var(--SKIN-purple-l) + var(--SKIN-lightness)), calc(var(--SKIN-purple-a) - 0.2));
+    --SKIN-purple-tertiary: hsla(var(--SKIN-purple-h), calc(var(--saturation-factor, 1) * var(--SKIN-purple-s)), calc(var(--SKIN-purple-l) + var(--SKIN-lightness)), calc(var(--SKIN-purple-a) - 0.4));
 
     /* Message */
     --SKIN-mentioned-message-normal: hsla(335, 31%, 12%, 0.7);

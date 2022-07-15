@@ -49,6 +49,18 @@
             transform: translate(1px, 1px);
         }
 
+        // Upper right badge // Stage and vc related
+        .upperBadge-1V6Iyi {
+            .iconBadge-32fMme {
+                background-color: var(--background-secondary-alt);
+                border-radius: var(--radius-tertiary);
+            
+                &.participating-2Z81oO {
+                    background-color: var(--green-secondary);
+                }
+            }
+        }
+
         // Pills
         .pill-2RsI5Q.wrapper-z5ab_q,
         .pill-L_aLMQ.wrapper-z5ab_q,
