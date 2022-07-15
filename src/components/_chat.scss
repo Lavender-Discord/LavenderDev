@@ -80,6 +80,7 @@
       }
     }
 
+    // Inspired by LuckFire's theme (essence)
     // Message
     .message-2CShn3.cozyMessage-1DWF9U {
       transition: .2s ease;
@@ -132,13 +133,18 @@
 
     // Embeds
     .embedFull-1HGV2S {
+      border-width: 0;
+      border-color: var(--accent-tertiary);
+      padding-left: 9px;
       &:before {
         content: '';
         position: absolute;
-        top: 10%;
-        left: 5px;
-        height: 80%;
-        width: 2px;
+        top: 15%;
+        left: 8px;
+        height: 70%;
+        border-left: 4px solid;
+        border-color: inherit;
+        border-radius: var(--radius-primary);
       }
     }
 

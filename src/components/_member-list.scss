@@ -37,9 +37,11 @@
 
 .activity-2EQDZv {
     height: 20px;
+    transition: .2s linear;
 }
 
 .activityText-1rR-8O {
+    transition: .2s linear;
     color: var(--interactive-normal);
   
     > strong {
@@ -62,6 +64,8 @@
 .container-2o3qEW, .membersWrap-3NUR2t {
     height: 100% !important;
 }
+
+// Inspired by LuckFire's theme (essence)
 
 // Blue bar for Member list member
 .layout-1qmrhw{
@@ -87,6 +91,7 @@
 .clickable-28SzVr:hover .layout-1qmrhw,
 .selected-1-Z6gm .layout-1qmrhw {
     background-color: var(--background-secondary);
+    .activityText-1rR-8O{max-width: calc(100% - 30px);}
 
     &::after {
         right: 25px;
