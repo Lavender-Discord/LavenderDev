@@ -1,6 +1,6 @@
 // Tool Tips upon hovering server list items
 .tooltip-14MtrL.listItemTooltip-eHcnUw, .listItemTooltip-Hrivm5 {
-    background-color: var(--background-primary) !important;
+    background-color: var(--background-floating) !important;
 
     .row-x_t5Ya div:last-child {
         background-color: var(--background-secondary) !important;
@@ -9,6 +9,6 @@
 
 // Tooltips in chat
 .tooltip-14MtrL:not(.listItemTooltip-eHcnUw, .listItemTooltip-Hrivm5).tooltipPrimary-3qLMbS {
-    background-color: var(--background-secondary) !important;
+    background-color: var(--background-floating) !important;
     color: var(--header-secondary);
 }

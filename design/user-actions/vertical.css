@@ -43,11 +43,32 @@
     height: 48px;
     align-items: center;
     justify-content: center;
+    transition: .2s linear;
+}
+
+.panels-3wFtMD>.container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur::before {
+    content: '';
+    background-color: var(--accent-primary);
+    position: absolute;
+    left: -20px;
+    top: 32.5%;
+    height: 35%;
+    width: 4px;
+    border-radius: 15px;
     transition: .3s ease;
 }
 
+.panels-3wFtMD>.container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur:hover::before {
+    left: -14px;
+}
+
+.panels-3wFtMD>.container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur:active::before {
+    height: 45%;
+    top: 27.5%;
+}
+
 .panels-3wFtMD>.container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur:hover {
-    background: var(--brand-experiment);
+    background: var(--accent-primary);
     border-radius: var(--radius-primary);
 }
 

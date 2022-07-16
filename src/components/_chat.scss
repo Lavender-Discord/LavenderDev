@@ -6,19 +6,80 @@
 .chat-2ZfjoI {
   // Channel bar
   .title-31SJ6t.container-ZMc96U {
-    background-color: var(--background-secondary);
+    background: transparent;
     border-radius: var(--radius-secondary);
     margin-top: 5px;
-    width: calc(100% - 15px);
+    width: calc(100% - 10px);
+    padding-left: 0;
+    padding-right: 0;
+    gap: 10px;
 
     // Separator between content and toolbar
-    .children-3xh0VB:after {
-      display: none;
+    .children-3xh0VB {
+      &:after{display: none;}
+      background-color: var(--background-secondary);
+      padding: 12px;
+      border-radius: inherit;
+
+      .iconWrapper-2awDjA {
+        svg path {color: var(--interactive-hover);}
+      }
+    }
+
+    h3.title-17SveM.base-ZDDK0g.size16-CysEuG{
+      font-size: 17px;
+      font-weight: 700;
     }
 
     .toolbar-3_r2xA {
+      background-color: var(--background-secondary);
+      padding: 12px;
+      display: flex;
+      flex: row;
+      align-items: center;
+      justify-content: center;
+      border-radius: inherit;
+      margin-right: 0;
+
       path {
         transition: .3s ease;
+      }
+      
+      .searchBar-jGtisZ {
+        background: none !important;
+        width: 24px;
+        color: var(--interactive-normal);
+        transition: width 0.2s, padding 0.5s;
+        padding: 0;
+      }
+
+      .searchBar-jGtisZ .iconContainer-1RqWJj {
+        width: 24px !important;
+        height: 24px;
+        cursor: pointer !important;
+        transform: scale(0.8) translate(0px, -1px);
+        transform-origin: center;
+      }
+
+      .searchBar-jGtisZ,
+      .searchBar-jGtisZ svg {
+        color: var(--interactive-normal);
+        width: 24px;
+        height: 24px;
+        padding: 0.5px;
+      }
+
+      .open-1F8u2c .searchBar-jGtisZ {
+        width: 200px !important;
+        background-color: var(--background-primary) !important;
+        padding: 0 3px !important;
+        border-radius: var(--radius-tertiary);
+        height: 24px !important;
+      }
+      
+      .open-1F8u2c .searchBar-jGtisZ svg {
+        color: var(--interactive-muted);
+        transform: scale(0.9);
       }
 
       // Search
@@ -26,9 +87,16 @@
         order: -2 !important;
       }
 
-      // Member list collapse
-      .iconWrapper-2awDjA:nth-of-type(4) {
-        order: 1 !important;
+      .iconWrapper-2awDjA{
+        // Member list collapse
+        &:nth-of-type(4) {
+          order: 1 !important;
+        }
+
+        // Notif / Video Call Button
+        &:nth-of-type(2){
+          order: -1;
+        }
       }
 
       a[href="https://support.discord.com"] {
@@ -49,9 +117,10 @@
     }
   }
 
+  .content-1jQy2l::before{display: none;}
+
   // Chat Content
   .chatContent-3KubbW {
-
     // Scrollbar
     .managedReactiveScroller-1lEEh3 {
       scrollbar-width: auto !important;
