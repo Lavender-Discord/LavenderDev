@@ -46,16 +46,16 @@
 //? ======= [ Colors ] ======= //
 .theme-dark, .theme-light {
     // Text Colors
-    --header-primary:  var(--SKIN-text-primary);
-    --header-secondary: var(--SKIN-text-secondary);
-    --text-normal: var(--SKIN-text-secondary);
-    --text-muted: var(--SKIN-text-tertiary);
+    --header-primary:  var(--SKIN-text-primary, hsla(213, 13%, 100%));
+    --header-secondary: var(--SKIN-text-secondary, hsla(213, 13%, 75%));
+    --text-normal: var(--SKIN-text-secondary, hsla(213, 13%, 75%));
+    --text-muted: var(--SKIN-text-tertiary, hsla(213, 13%, 50%));
 
     // Icons and etc colos
-    --interactive-normal: var(--SKIN-interactive-normal);
-    --interactive-hover: var(--SKIN-interactive-hover);
-    --interactive-active: var(--SKIN-interactive-active);
-    --interactive-muted: var(--SKIN-interactive-muted);
+    --interactive-normal: var(--SKIN-interactive-normal, hsla(213, 13%, 65%));
+    --interactive-hover: var(--SKIN-interactive-hover, hsla(213, 13%, 85%));
+    --interactive-active: var(--SKIN-interactive-active, hsla(213, 13%, 95%));
+    --interactive-muted: var(--SKIN-interactive-muted, hsla(213, 13%, 55%));
 
     // Channels Colors
     --channels-default: var(--text-muted);
@@ -64,10 +64,10 @@
     --channeltextarea-background: var(--background-secondary);
 
     // Background Colors
-    --background-primary: var(--SKIN-background-primary);
-    --background-secondary: var(--SKIN-background-secondary);
-    --background-secondary-alt: var(--SKIN-background-secondary-alt);
-    --background-tertiary: var(--SKIN-background-tertiary);
+    --background-primary: var(--SKIN-background-primary, hsl(220, 8%, 14%));
+    --background-secondary: var(--SKIN-background-secondary, hsl(220, 8%, 17%));
+    --background-secondary-alt: var(--SKIN-background-secondary-alt, hsl(220, 8%, 20%));
+    --background-tertiary: var(--SKIN-background-tertiary, hsl(220, 8%, 14%));
 
     // Accent Colors
     --accent-primary: var(--SKIN-accent-primary);

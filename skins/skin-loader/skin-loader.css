@@ -12,9 +12,9 @@
     --SKIN-interactive-muted: hsla(var(--SKIN-interactive-h), calc(var(--saturation-factor) * var(--SKIN-interactive-s)), calc(var(--SKIN-interactive-l) - 20% + var(--SKIN-lightness)), calc(var(--SKIN-interactive-a) - 0.6));
 
     /* Background Colors */
-    --SKIN-background-primary: hsla(var(--SKIN-background-h), calc(var(--saturation-factor) * var(--SKIN-background-s)), calc(var(--SKIN-background-l) + var(--SKIN-grading-1) + var(--SKIN-lightness)), var(--SKIN-background-a));
-    --SKIN-background-secondary: hsla(var(--SKIN-background-h), calc(var(--saturation-factor) * var(--SKIN-background-s)), calc(var(--SKIN-background-l) + var(--SKIN-grading-2) + var(--SKIN-lightness)), var(--SKIN-background-a));
-    --SKIN-background-secondary-alt: hsla(var(--SKIN-background-h), calc(var(--saturation-factor) * var(--SKIN-background-s)), calc(var(--SKIN-background-l) + var(--SKIN-grading-3) + var(--SKIN-lightness)), var(--SKIN-background-a));
+    --SKIN-background-primary: hsla(var(--SKIN-background-h), calc(var(--saturation-factor) * var(--SKIN-background-s)), calc(var(--SKIN-background-l) - var(--SKIN-grading-3) + var(--SKIN-lightness)), var(--SKIN-background-a));
+    --SKIN-background-secondary: hsla(var(--SKIN-background-h), calc(var(--saturation-factor) * var(--SKIN-background-s)), calc(var(--SKIN-background-l) - var(--SKIN-grading-2) + var(--SKIN-lightness)), var(--SKIN-background-a));
+    --SKIN-background-secondary-alt: hsla(var(--SKIN-background-h), calc(var(--saturation-factor) * var(--SKIN-background-s)), calc(var(--SKIN-background-l) - var(--SKIN-grading-1) + var(--SKIN-lightness)), var(--SKIN-background-a));
     --SKIN-background-tertiary: var(--SKIN-background-primary);
 
     /* Accent Color */
@@ -43,7 +43,7 @@
     --SKIN-purple-tertiary: hsla(var(--SKIN-purple-h), calc(var(--saturation-factor, 1) * var(--SKIN-purple-s)), calc(var(--SKIN-purple-l) + var(--SKIN-lightness)), calc(var(--SKIN-purple-a) - 0.4));
 
     /* Message */
-    --SKIN-mentioned-message-normal: hsla(335, 31%, 12%, 0.7);
-    --SKIN-mentioned-message-hover: hsla(335, 31%, 12%, 0.4);
-    --SKIN-message-hover: hsla(var(--SKIN-background-h), calc(var(--saturation-factor) * var(--SKIN-background-s)), calc(var(--SKIN-background-l) + var(--SKIN-lightness)), 0.2);
+    --SKIN-mentioned-message-normal: hsla(var(--SKIN-red-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.07);
+    --SKIN-mentioned-message-hover: hsla(var(--SKIN-red-h), calc(var(--saturation-factor, 1)*85.6%), 64.7%, 0.03);
+    --SKIN-message-hover: hsla(var(--SKIN-background-h), calc(var(--saturation-factor) * var(--SKIN-background-s)), calc(var(--SKIN-background-l) - var(--SKIN-grading-3) - 5% + var(--SKIN-lightness)), 0.2);
 }
