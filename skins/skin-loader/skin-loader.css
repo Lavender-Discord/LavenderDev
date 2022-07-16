@@ -16,6 +16,7 @@
     --SKIN-background-secondary: hsla(var(--SKIN-background-h), calc(var(--saturation-factor) * var(--SKIN-background-s)), calc(var(--SKIN-background-l) - var(--SKIN-grading-2) + var(--SKIN-lightness)), var(--SKIN-background-a));
     --SKIN-background-secondary-alt: hsla(var(--SKIN-background-h), calc(var(--saturation-factor) * var(--SKIN-background-s)), calc(var(--SKIN-background-l) - var(--SKIN-grading-1) + var(--SKIN-lightness)), var(--SKIN-background-a));
     --SKIN-background-tertiary: var(--SKIN-background-primary);
+    --SKIN-background-floating: hsla(var(--SKIN-background-h), calc(var(--saturation-factor) * var(--SKIN-background-s)), calc(var(--SKIN-background-l) - var(--SKIN-grading-3) - 2% + var(--SKIN-lightness)), 1.0);
 
     /* Accent Color */
     --SKIN-accent-primary: hsla(var(--SKIN-accent-h), calc(var(--saturation-factor, 1) * var(--SKIN-accent-s)), calc(var(--SKIN-accent-l) + var(--SKIN-lightness)), calc(var(--SKIN-accent-a) - 0.0));
