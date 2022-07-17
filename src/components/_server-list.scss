@@ -19,9 +19,10 @@
         }
 
         .circleIconButton-1VxDrg  {
-            color: var(--accent-primary);
+            color: var(--green-primary);
 
             &.selected-2r1Hvo {
+                background-color: var(--green-primary);
                 color: var(--interactive-active);
             }
         }

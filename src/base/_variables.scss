@@ -68,8 +68,24 @@
     --background-secondary: var(--SKIN-background-secondary, hsl(220, 8%, 17%));
     --background-secondary-alt: var(--SKIN-background-secondary-alt, hsl(220, 8%, 20%));
     --background-tertiary: var(--SKIN-background-tertiary, hsl(220, 8%, 14%));
+
+    // Other Background Colors
+    --background-accent: var(--background-secondary-alt);
     --background-floating: var(--SKIN-background-floating);
+    --background-nested-floating: var(--background-secondary);
+    --background-mobile-primary: var(--background-primary);
+    --background-mobile-secondary: var(--background-secondary);
     --modal-background: var(--background-secondary);
+    --modal-footer-background: var(--background-secondary-alt);
+    --input-background: var(--background-secondary);
+    --input-placeholder-text: var(--channel-text-area-placeholder);
+
+    // Background Modifiers
+    --background-modifier: var(--background-secondary);
+    --background-modifier-accent: hsla(var(--SKIN-interactive-h), calc(var(--saturation-factor) * var(--SKIN-interactive-s)), calc(var(--SKIN-interactive-l) - 20% + var(--SKIN-lightness)), 0.2);
+    --background-modifier-selected: var(--background-primary);
+    --background-modifier-hover: var(--background-secondary-alt);
+    --background-modifier-active: var(--background-modifier-hover);
 
     // Accent Colors
     --accent-primary: var(--SKIN-accent-primary);
@@ -213,6 +229,17 @@
     --scrollbar-thin-thumb: var(--background-secondary-alt);
     --scrollbar-auto-thumb: var(--background-secondary-alt);
     --scrollbar-auto-scrollbar-color-thumb: var(--background-secondary-alt);
+
+    // Search Popout
+    --search-popout-option-fade: none;
+    --search-popout-option-fade-hover: none;
+    --search-popout-option-user-nickname: var(--text-normal);
+    --search-popout-option-user-username: var(--text-muted);
+    --search-popout-date-picker-border: none;
+    --search-popout-date-picker-hint-text: var(--text-normal);
+    --search-popout-date-picker-hint-value-text: var(--header-primary);
+    --search-popout-date-picker-hint-value-background: var(--brand-experiment);
+    --search-popout-date-picker-hint-value-background-hover: var(--brand-experiment-430);
 }
 
 // Brand Colors - Accent
