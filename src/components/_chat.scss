@@ -127,6 +127,11 @@
 
   // Chat Content
   .chatContent-3KubbW {
+    // Setting max widths
+    .messageAttachment-CZp8Iv, .markup-eYLPri blockquote, .markup-eYLPri pre{
+      max-width: 95%;
+    }
+
     // Scrollbar
     .managedReactiveScroller-1lEEh3 {
       scrollbar-width: auto !important;
