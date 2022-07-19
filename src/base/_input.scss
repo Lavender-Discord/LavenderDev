@@ -1,0 +1,42 @@
+// Radio Boxes
+div[role*="radiogroup"]{
+    padding: 10px;
+    padding-bottom: 5px;
+    background-color: var(--background-secondary);
+    border-radius: var(--radius-secondary);
+    
+    .item-2idW98.horizontal-1Piu5-/*.itemFilled-1cPbtg*/{
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--radius-secondary);
+        transition: 125ms linear;
+
+        &:hover{
+            background-color: var(--background-primary);
+        }
+        &[aria-checked="true"]{
+            background-color: var(--background-primary);
+        }
+    }
+}
+
+// Dropdown button
+.lookFilled-1GseHa.select-1Ia3hD {
+    background-color: var(--background-secondary);
+    border-radius: var(--radius-secondary);
+}
+
+// Dropdowns
+.layer-2aCOJ3 {
+    border-radius: var(--radius-secondary);
+    .popout-1KHNAq {
+        border: none;
+        border-radius: inherit;
+        box-shadow: var(--elevation-high);
+        transform: translate(0, 10px);
+        .option-2eIyOn {
+            border-radius: var(--radius-secondary);
+            margin: 5px;
+            margin-bottom: 0px;
+        }
+    }
+}

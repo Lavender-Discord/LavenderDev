@@ -95,7 +95,7 @@
         display: block;
         color: var(--interactive-normal);
         opacity: 0;
-        transition: var(--transition-duration-secondary) var(--transition-timing-function-primary);
+        transition: .2s ease;
     }
 
     // Show add button on hovering the category
@@ -115,7 +115,7 @@
 
     // Invite & Channel settings buttons
     .children-1MGS9G .iconItem-1EjiK0 {
-        transition: var(--transition-duration-tertiary) var(--transition-timing-function-primary);
+        transition: .2s ease;
         display: block !important;
         right: -70px;
         opacity: 0;
@@ -164,14 +164,14 @@
 
     // The blue bar hidden before select/hovering the channel
     .content-1gYQeQ {
-        transition: var(--transition-duration-primary) var(--transition-timing-function-primary);
+        transition: .2s ease;
         border-radius: var(--radius-secondary);
         padding-top: 1px;
         padding-bottom: 1px;
 
         &::before {
             content: '';
-            transition: var(--transition-duration-primary) var(--transition-timing-function-primary);
+            transition: .2s ease;
             position: absolute;
             height: 60%;
             width: 0px;
@@ -181,7 +181,7 @@
             background-color: var(--accent-primary);
         }
 
-        .mainContent-20q_Hp{margin-left: 0px; transition: var(--transition-duration-primary) var(--transition-timing-function-primary);}
+        .mainContent-20q_Hp{margin-left: 0px; transition: .2s ease;}
     }
 
     // The blue bar on channel hover and select
@@ -205,7 +205,7 @@
     .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 {background-color: var(--background-secondary-alt);}
     .flex-2S1XBF.connection-3k9QeF .flex-2S1XBF.flex-3BkGQD .button-12Fmur.enabled-9OeuTA,
     .actions-zk2vB_ .button-12Fmur.enabled-9OeuTA {
-        transition: var(--transition-duration-secondary) var(--transition-timing-function-primary);
+        transition: .2s ease;
         &:hover {background-color: var(--background-primary);}
     }
 
@@ -218,7 +218,7 @@
         border-radius: 15px;
         z-index: 101;
         margin-top: -5px;
-        transition: var(--transition-duration-primary) var(--transition-timing-function-primary);
+        transition: .2s ease;
     }
 
     .iconVisibility-vptxma.modeUnread-3Cxepe:hover .unread-36eUEm {
@@ -267,7 +267,7 @@
                     background-color: var(--background-secondary-alt);
                     color: var(--interactive-normal);
                     border-radius: var(--radius-secondary);
-                    transition: var(--transition-duration-secondary) var(--transition-timing-function-primary);
+                    transition: .2s ease;
                     width: 100%;
                     height: 38px;
 
@@ -318,7 +318,7 @@
             border-radius: var(--radius-secondary);
             width: 100%;
             height: 38px;
-            transition: var(--transition-duration-tertiary) var(--transition-timing-function-primary);
+            transition: .2s ease;
         
             &:hover {
                 background-color: var(--background-primary);
