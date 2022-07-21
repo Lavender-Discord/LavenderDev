@@ -33,6 +33,9 @@ div[role*="radiogroup"]{
         border-radius: inherit;
         box-shadow: var(--elevation-high);
         transform: translate(0, 10px);
+        max-height: none !important;
+        padding-top: 4px;
+        padding-bottom: 7px;
         .option-2eIyOn {
             border-radius: var(--radius-secondary);
             margin: 5px;

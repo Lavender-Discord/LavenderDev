@@ -5,6 +5,7 @@
     margin-right: 8px;
     margin-bottom: 5px;
     height: 100%;
+    gap: 5px;
 
     .sectionDivider-189lqb{display: none;}
 
@@ -35,21 +36,20 @@
     .thin-31rlnD {
       background: var(--background-secondary);
       border-radius: var(--radius-secondary);
-      margin-bottom: 2px;
     }
 
     .container-1NXEtd, .privateChannels-oVe7HL, .panels-3wFtMD {
         background: transparent;
         border-radius: var(--radius-secondary);
-        margin-bottom: 5px;
     }
+
+    .container-1NXEtd{gap: 2px;}
 
     // Server Name Header
     .container-1-ERn5 {
         background-color: var(--background-secondary);
         border-radius: var(--radius-secondary);
         margin-top: 5px;
-
         .header-3OsQeK {
             border-radius: var(--radius-secondary);
             h1{font-weight: 700;font-size: 16px;}
@@ -67,7 +67,6 @@
     .container-2Y4CWj {
         background-color: var(--background-secondary);
         border-radius: var(--radius-secondary);
-        margin-bottom: 5px;
     }
 
     // Search bar in friends list
