@@ -1,0 +1,13 @@
+// Color Picker
+.colorPickerCustom-1swUKF {
+    background: var(--background-secondary) !important;
+    border: none;
+    border-radius: var(--radius-secondary);
+    box-shadow: var(--elevation-medium);
+
+    .input-2g-os5 {
+        background: var(--background-primary);
+        border-radius: var(--radius-secondary);
+        caret-color: var(--accent-primary);
+    }
+}

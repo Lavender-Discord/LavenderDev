@@ -1,4 +1,14 @@
 .layer-86YKbF {
+    // Radiuses to the cards and etc things
+    .bioTextArea-dDGOeC, .inputWrapper-1YNMmM input, .upsellContainer-3qKRln, .formNotice-2nS8ey, .authedApp-8q3NA9, .activeGame-1OdxzI, .cardPrimary-3qRT__ {
+        border-radius: var(--radius-secondary);
+    }
+
+    // Authorised apps
+    #authorized-apps-tab .card-16VQ8C {
+        background-color: var(--background-secondary);
+    }
+
     .standardSidebarView-E9Pc3j {
         .sidebarRegion-1VBisG {
             border-radius: var(--radius-secondary);

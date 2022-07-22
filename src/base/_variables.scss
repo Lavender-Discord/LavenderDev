@@ -240,6 +240,35 @@
     --search-popout-date-picker-hint-value-text: var(--header-primary);
     --search-popout-date-picker-hint-value-background: var(--brand-experiment);
     --search-popout-date-picker-hint-value-background-hover: var(--brand-experiment-430);
+
+    // Spoilers
+    --spoiler-revealed-background: var(--background-secondary-alt);
+    --spoiler-hidden-background: var(--background-secondary);
+    
+    // Android
+    --android-navigation-bar-background: var(--background-tertiary);
+    --android-ripple: var(--brand-experiment-60a);
+    
+    // Deprecated but still works in some places so idk lol
+    --deprecated-card-bg: var(--background-secondary);
+    --deprecated-card-editable-bg: var(--background-secondary);
+    --deprecated-store-bg: var(--background-secondary);
+    --deprecated-quickswitcher-input-background: var(--input-background);
+    --deprecated-quickswitcher-input-placeholder: var(--input-placeholder-text);
+    --deprecated-text-input-bg: var(--background-primary);
+    --deprecated-text-input-border: transparent;
+    --deprecated-text-input-border-hover: transparent;
+    --deprecated-text-input-border-disabled: transparent;
+    --deprecated-text-input-prefix: var(--text-muted);
+}
+
+::selection{
+    background-color: var(--accent-primary);
+    color: #000;
+}
+
+*{
+    caret-color: var(--accent-primary);
 }
 
 // Brand Colors - Accent

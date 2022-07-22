@@ -1,3 +1,21 @@
+.chatButton-10jXXp {
+    top: 16px;
+    right: 28px;
+}
+
+.tile-2TcwiO{
+    border-radius: var(--radius-primary);
+    background-color: var(--background-secondary);
+    
+    .button-3Vyz67{
+        background-color: var(--background-secondary-alt);
+        transition: .2s linear;
+        &:hover{
+            background-color: var(--background-primary);
+        }
+    }
+}
+
 .callContainer-HtHELf {
     background-color: var(--background-primary);
 
@@ -24,9 +42,19 @@
     .bottomControls-31YuPK {
         .flex-2S1XBF:first-child .leftTrayIcon-3kMl25 {
             background-color: var(--background-secondary);
+            padding: 16px;
+            border-radius: var(--radius-primary);
+            transform: translateY(-3px);
+            transition: .2s linear;
+            svg path{
+                transition: .2s linear;
+            }
 
             &:hover {
                 background-color: var(--background-secondary-alt);
+                svg path{
+                    color: var(--interactive-hover);
+                }
             }
         }
     }
@@ -77,7 +105,7 @@
                                 }
 
                                 .statusContainer-2yJ1oM .status-15kcmy {
-                                    border-radius: 35%;
+                                    border-radius: var(--radius-primary);
                                     width: 22px;
                                     height: 22px;
                                     padding: 10px;
@@ -94,7 +122,7 @@
             margin-bottom: 10px;
 
             button {
-                border-radius: 35%;
+                border-radius: var(--radius-primary);
                 transform: scale(0.95);
             }
 

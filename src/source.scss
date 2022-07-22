@@ -28,6 +28,7 @@
 @forward 'pages/others' as pages-others*;
 
 //? Popouts
+@forward 'popouts/attach-menu';
 @forward 'popouts/context-menus';
 @forward 'popouts/emoji-picker';
 @forward 'popouts/inbox';
@@ -36,3 +37,8 @@
 @forward 'popouts/threads';
 @forward 'popouts/user-popout';
 @forward 'popouts/others' as popouts-others*;
+
+//? Slide Ins
+@forward 'slideins/search-results';
+@forward 'slideins/text-in-voice';
+@forward 'slideins/threads-chat';
