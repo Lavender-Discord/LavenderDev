@@ -13,6 +13,8 @@
 @forward 'components/others' as components-others*;
 
 //? Modals
+@forward 'modals/calendar';
+@forward 'modals/create-event';
 @forward 'modals/invite';
 @forward 'modals/join-server';
 @forward 'modals/quick-switcher';
@@ -40,5 +42,4 @@
 
 //? Slide Ins
 @forward 'slideins/search-results';
-@forward 'slideins/text-in-voice';
-@forward 'slideins/threads-chat';
+@forward 'slideins/slide-in-chat';

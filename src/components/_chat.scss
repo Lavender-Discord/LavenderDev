@@ -653,7 +653,7 @@
   -webkit-box-shadow: none;
   box-shadow: none;
   border-radius: var(--radius-secondary);
-  background-color: var(--background-secondary);
+  background-color: var(--background-secondary) !important;
 
   .categoryHeader-OpJ1Ly {
     background-color: var(--background-primary);

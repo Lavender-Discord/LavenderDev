@@ -1,0 +1,21 @@
+//
+.root-g14mjS {
+    --input-background: var(--background-primary);
+    .lookFilled-1GseHa.select-1Ia3hD {
+        background-color: var(--background-primary);
+    }
+    textarea, input, .inputDefault-3FGxgL.container-3muw00{
+        border-radius: var(--radius-secondary);
+        transition: .2s linear;
+    }
+    .inputDefault-3FGxgL.container-3muw00:hover{
+        background-color: var(--background-secondary-alt);
+    }
+    .progressBar-18rmp1{
+        background-color: var(--background-primary);
+        border-radius: 10px;
+        &.selectedProgressBar-11z5d9{
+            background-color: var(--accent-primary);
+        }
+    }
+}

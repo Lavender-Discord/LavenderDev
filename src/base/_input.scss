@@ -29,6 +29,10 @@ div[role*="radiogroup"]{
 .layer-2aCOJ3 {
     border-radius: var(--radius-secondary);
     .popout-1KHNAq {
+        --scrollbar-thin-thumb: var(--background-primary);
+        --scrollbar-auto-thumb: var(--background-primary);
+        --scrollbar-auto-scrollbar-color-thumb: var(--background-primary);
+        
         border: none;
         border-radius: inherit;
         box-shadow: var(--elevation-high);

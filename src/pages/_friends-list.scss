@@ -1,10 +1,11 @@
 .container-2cd8Mz{
+    background-color: var(--background-primary) !important;
     .container-ZMc96U {
         padding-top: 10px;
         padding-left: 0;
         background-color: var(--background-primary);
         padding-left: 0;
-        padding-right: 10px;
+        margin: 0 !important;
         gap: 8px;
         
         .iconWrapper-2awDjA {
@@ -49,6 +50,22 @@
         
             .iconWrapper-2awDjA.clickable-ZD7xvu.selected-29KTGM {
                 svg path {color: var(--interactive-active) !important;}
+            }
+        }
+    }
+}
+
+.nowPlayingColumn-1eCBCN {
+    .container-1oAagU {
+        .scroller-hE2gWq {
+            .itemCard-3Etziu.wrapper-2RrXDg {
+                background-color: var(--background-secondary);
+                transition: .2s linear;
+                border: none;
+                border-radius: var(--radius-secondary);
+                &:hover{
+                    background-color: var(--background-secondary-alt);
+                }
             }
         }
     }
