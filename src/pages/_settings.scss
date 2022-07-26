@@ -4,6 +4,15 @@
         border-radius: var(--radius-secondary);
     }
 
+    // Selected roles in roles menu
+    .role-3pGE29.item-3XjbnG {
+        border-radius: var(--radius-secondary);
+        margin-top: 2px;
+        &.selected-g-kMVV {
+            background-color: var(--background-secondary);
+        }
+    }
+
     // Authorised apps
     #authorized-apps-tab .card-16VQ8C {
         background-color: var(--background-secondary);
