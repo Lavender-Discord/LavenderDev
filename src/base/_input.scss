@@ -23,7 +23,6 @@ div[role*="radiogroup"]{
 .permissionsForm-35gjPz {
     .group-LWHoGI {
         padding: 0 !important;
-        border-radius: var(--radius-secondary);
         border: none;
         gap: 5px;
         background-color: transparent;
@@ -31,7 +30,7 @@ div[role*="radiogroup"]{
         .item-4m-12I {
             background-color: var(--background-secondary);
             transition: .2s ease;
-            border-radius: var(--radius-secondary);
+            border-radius: var(--radius-tertiary);
 
             &:hover,
             &.selected-3jieYB {
