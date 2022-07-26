@@ -153,6 +153,23 @@
     }
   }
 
+  .mention.wrapper-1ZcZW-{
+    background: var(--brand-experiment-05a);
+    border-radius: var(--radius-secondary);
+    color: var(--accent-primary);
+    font-weight: 700;
+
+    &.interactive {
+      transition: .3s ease;
+      
+      &:hover {
+        background-color: var(--brand-experiment-40a);
+        color: var(--interactive-hover);
+        text-decoration: none;
+      }
+    }
+  }
+
   .avatar-2e8lTP.clickable-31pE3P {
     &:hover {
       transform: scale(1.08);
@@ -248,14 +265,6 @@
     border-radius: var(--radius-secondary);
     padding-left: 9px;
     transition: .2s linear;
-
-    &:hover{
-      padding-left: 10px;
-      &:before{
-        border-left: 5px solid;
-        border-color: inherit;
-      }
-    }
 
     &:before {
       content: '';
@@ -604,6 +613,31 @@
     background-color: var(--background-primary);
     border-radius: var(--radius-secondary);
   }
+
+  .actionBarContainer-2BJ5hs {
+    .actionBar-1ozugS{
+      border: none;
+      box-shadow: none;
+      .wrapper-2vIMkT{
+        display: flex;
+        gap: 5px;
+        border: none;
+        box-shadow: none;
+        background-color: transparent;
+        transform: translateY(-10px);
+        .button-3bklZh{
+          background-color: var(--background-secondary-alt);
+          border-radius: var(--radius-secondary);
+          margin: 0 !important;
+          transition: .2s linear;
+
+          &:hover{
+            background-color: var(--background-floating);
+          }
+        }
+      }
+    }
+  }
 }
 
 // jump to present
@@ -679,7 +713,13 @@
 
     // Default Options
     .wrapper-1wwiGV {
-      &:hover, &:active {
+      border-radius: var(--radius-secondary);
+      padding: 2px;
+      transition: .2s linear;
+
+      svg path {transition: .2s linear;}
+
+      &.selected-3B2w1z, &:hover {
         background-color: var(--background-secondary-alt);
       }
     }

@@ -28,10 +28,13 @@
 
 .membersGroup-2eiWxl {
     height: 55px;
-  
+    background-color: var(--background-primary);
+    transition: .2s ease;
+    z-index: 101;
+    
     span {
-      font-size: 13px;
-      font-weight: 650;
+        font-size: 13px;
+        font-weight: 650;
     }
 }
 

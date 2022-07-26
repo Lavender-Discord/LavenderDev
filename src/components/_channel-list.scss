@@ -79,22 +79,53 @@
 
     .searchBar-3TnChZ .searchBarComponent-3N7dCG {border-radius: var(--radius-tertiary);cursor:text;padding-left: 10px;}
 
-    // Arrow Icon in Category
-    .icon-3zI3d2 {
-        display: none;
-    }
-
     // Expanded Category  
     [aria-expanded*="true"] .name-3BUDLf .overflow-1wOqNV {
         color: var(--interactive-active) !important;
+        font-weight: 700;
     }
 
-    // Add channel button in category
-    .addButton-2mlqCW.forceVisible-14yqh4, .iconVisibility-3pLDEs:hover .addButton-2mlqCW {
-        display: block;
-        color: var(--interactive-normal);
-        opacity: 0;
+    // Category
+    .iconVisibility-3pLDEs.wrapper-1S43wv {
+        margin-left: 10px;
+        border-radius: var(--radius-tertiary);
         transition: .2s ease;
+
+        &:hover{
+            background-color: var(--background-secondary-alt);
+            .mainContent-uDGa6R{margin-left: unset !important;}
+            .icon-3zI3d2{
+                opacity: 1;
+                margin-left: unset !important;
+            }
+            .addButton-2mlqCW.forceVisible-14yqh4{
+                opacity: 1;
+                margin-right: unset !important;
+            }
+        }
+
+        // Add channel button in category
+        .addButton-2mlqCW.forceVisible-14yqh4 {
+            display: block;
+            color: var(--interactive-normal);
+            opacity: 0;
+            margin-right: -10px;
+            transition: .2s ease;
+        }
+
+        .mainContent-uDGa6R {
+            flex: none !important;
+            margin-left: -10px;
+            transition: .2s ease;
+        }
+
+        // Arrow Icon in Category
+        .icon-3zI3d2 {
+            // display: none;
+            opacity: 0;
+            margin-left: -10px;
+            transition: .2s ease;
+        }
     }
 
     // Show add button on hovering the category
@@ -172,11 +203,11 @@
             content: '';
             transition: .2s ease;
             position: absolute;
-            height: 60%;
+            height: 50%;
             width: 0px;
-            top: 17%;
+            top: 25%;
             left: 0px;
-            border-radius: var(--radius-secondary);
+            border-radius: 5px;
             background-color: var(--accent-primary);
         }
 
