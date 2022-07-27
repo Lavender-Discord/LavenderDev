@@ -258,6 +258,8 @@
     }
   }
 
+  .embedWrapper-1MtIDg.justifyAuto-BLgJ2X{justify-self: left !important;}
+
   // Embeds
   .embedFull-1HGV2S {
     border-width: 0;
@@ -435,6 +437,7 @@
   // text area
   .textArea-2CLwUE {
     margin-left: -16px;
+    margin-right: 5px;
     transition: .2s linear;
 
     & > div {
@@ -449,7 +452,7 @@
   // buttons
   .attachButton-1ijpt9 {
     margin-right: 5px;
-    margin-left: 5px;
+    margin-left: 0px;
 
     .attachButtonPlay-1ATmb5 {
       fill: var(--spotify-color);
@@ -750,4 +753,14 @@
   .editor-H2NA06 {
     left: 0px !important;
   }
+}
+
+// new messages - mark as read (blurple bar above chat)
+.newMessagesBar-1hF-9G{
+  height: 30px;
+  border-bottom-left-radius: var(--radius-secondary);
+  border-bottom-right-radius: var(--radius-secondary);
+  opacity: 0.9;
+  background-color: var(--accent-primary);
+  &:hover{opacity: 1;background-color: var(--accent-primary);}
 }
