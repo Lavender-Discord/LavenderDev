@@ -170,6 +170,30 @@
     }
   }
 
+  .reaction-3vwAF2{
+    border: none;
+    transition: .2s linear;
+    .reactionInner-YJjOtT{
+      *{color: var(--interactive-normal);}
+      border-radius: .4em;
+      background-color: var(--background-secondary);
+      &:hover{
+        *{color: var(--interactive-hover);}
+        background-color: var(--background-secondary-alt);
+        filter: brightness(110%);
+      }
+    }
+    &.reactionMe-1PwQAc {
+      .reactionInner-YJjOtT{
+        *{font-weight: 700;color: var(--interactive-active);}
+        background-color: var(--brand-experiment-20a);
+        &:hover{
+          background-color: var(--brand-experiment-40a);
+        }
+      }
+    }
+  }
+
   .avatar-2e8lTP.clickable-31pE3P {
     &:hover {
       transform: scale(1.08);
@@ -290,10 +314,10 @@
     width: 100%;
     height: 100%;
     grid-gap: 5px;
-    transition: .2s linear;
+    transition: .2s ease;
 
     .button-3bklZh {
-      transition: .2s linear;
+      transition: .2s ease;
       background-color: var(--background-secondary);
       border-radius: var(--radius-secondary);
       padding: 5px;
@@ -301,7 +325,7 @@
       justify-content: center;
       align-items: center;
       box-shadow: var(--elevation-low);
-      svg{transition: .2s linear;}
+      svg{transition: .2s ease;}
       
       &:hover, &.selected-69H4ua {
         background-color: var(--background-secondary-alt);
@@ -452,7 +476,7 @@
   // buttons
   .attachButton-1ijpt9 {
     margin-right: 5px;
-    margin-left: 0px;
+    margin-left: -1px;
 
     .attachButtonPlay-1ATmb5 {
       fill: var(--spotify-color);
@@ -460,7 +484,7 @@
   }
   
   .buttons-uaqb-5>:last-child { // send message button
-      margin-left: -4px;
+      margin-left: -5px;
       display: flex;
       justify-content: center;
       align-items: center;

@@ -45,3 +45,8 @@
 .expression-picker-chat-input-button:nth-of-type(1) {
     display: none;
 }
+
+/* Explore */
+.tutorialContainer-2jwoiB+div {
+    display: none;
+}

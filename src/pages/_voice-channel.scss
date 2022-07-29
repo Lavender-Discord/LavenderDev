@@ -189,3 +189,31 @@
         }
     }
 }
+
+//Stage
+.controlIcon-10O-4h{
+    color: var(--interactive-normal);
+    &:hover{
+        color: var(--interactive-hover);
+    }
+}
+
+.gradientBottom-uB_-4E.gradientContainer-phMG8d{
+    display: none;
+}
+
+.callContainer-BGIngG, .container-cH6QoY, .rowContainer-jDvyA4, .scroller-35tvpe, .participants-3hk3ND, .container-3r7mfc, .root-22AK9z, .callContainer-BGIngG {
+    background-color: var(--background-primary);
+}
+
+.tileContainer-Os085F{
+    background-color: var(--background-secondary);
+    border-radius: var(--radius-secondary);
+    &:hover{
+        background-color: var(--background-secondary-alt);
+    }
+}
+
+.container-3r7mfc {
+    padding-top: 72px;
+}

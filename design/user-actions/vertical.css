@@ -56,10 +56,12 @@
     width: 4px;
     border-radius: 15px;
     transition: .3s ease;
+    opacity: 0;
 }
 
 .panels-3wFtMD>.container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur:hover::before {
     left: -14px;
+    opacity: 1;
 }
 
 .panels-3wFtMD>.container-YkUktl:last-child .directionRow-2Iu2A9 .button-12Fmur:active::before {
