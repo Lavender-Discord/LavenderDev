@@ -1,3 +1,11 @@
+// Toggles
+.container-2nx-BQ {
+    background-color: var(--background-secondary-alt) !important;
+    &.checked-25WXMf {
+        background-color: var(--green-primary) !important;
+    }
+}
+
 // Radio Boxes
 div[role*="radiogroup"]{
     padding: 10px;
