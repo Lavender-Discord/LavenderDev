@@ -145,9 +145,9 @@
 
     // Invite & Channel settings buttons
     .children-1MGS9G .iconItem-1EjiK0 {
-        transition: .2s ease;
+        transition: .2s linear;
         display: block !important;
-        right: -70px;
+        right: -30px;
         opacity: 0;
     }
     
@@ -166,16 +166,12 @@
     
     // Selected Text Channel
     .containerDefault-YUSmu3.selected-2TbFuo {
-        .modeSelected-3DmyhH .content-1gYQeQ {
-            background-color: var(--background-primary);
-        }
-
         .modeSelected-3DmyhH:hover .content-1gYQeQ {
             background-color: var(--background-secondary-alt);
         }
     }
 
-    // Selected Voice Channel
+    // Selected Channel
     .wrapper-NhbLHG.modeConnected-NrO4cP .content-1gYQeQ,
     .iconVisibility-vptxma.wrapper-NhbLHG.modeSelected-3DmyhH .content-1gYQeQ{
         background-color: var(--background-primary);
@@ -194,14 +190,14 @@
 
     // The blue bar hidden before select/hovering the channel
     .content-1gYQeQ {
-        transition: .2s ease;
+        transition: 125ms linear;
         border-radius: var(--radius-secondary);
         padding-top: 1px;
         padding-bottom: 1px;
 
         &::before {
             content: '';
-            transition: .2s linear;
+            transition: 125ms linear;
             position: absolute;
             height: 46%;
             width: 0px;
@@ -212,7 +208,7 @@
             background-color: var(--accent-primary);
         }
 
-        .mainContent-20q_Hp{margin-left: 0px; transition: .2s ease;}
+        .mainContent-20q_Hp{margin-left: 0px; transition: 125ms linear;}
     }
 
     // The blue bar on channel hover and select
@@ -237,7 +233,7 @@
     .listDefault-2F-w65 .clickable-1ctZ-H:hover .content-1Tgc42 {background-color: var(--background-secondary-alt);}
     .flex-2S1XBF.connection-3k9QeF .flex-2S1XBF.flex-3BkGQD .button-12Fmur.enabled-9OeuTA,
     .actions-zk2vB_ .button-12Fmur.enabled-9OeuTA {
-        transition: .2s ease;
+        transition: 125ms linear;
         &:hover {background-color: var(--background-primary);}
     }
 

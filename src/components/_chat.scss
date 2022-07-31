@@ -243,6 +243,7 @@
         background-color: var(--accent-primary);
         position: absolute;
         left: -10px;
+        opacity: 0;
         height: 70%;
         top: 15%;
         bottom: 0;
@@ -255,6 +256,7 @@
         background-color: var(--background-message-hover);
         &:before {
           left: 10px;
+          opacity: 1;
         }
 
         .contents-2MsGLg,[id*="message-accessories"]{margin-left: 10px;}
@@ -787,4 +789,9 @@
   opacity: 0.9;
   background-color: var(--accent-primary);
   &:hover{opacity: 1;background-color: var(--accent-primary);}
+}
+
+// Hide textbar on channels you have no permission to send messages on
+.channelTextArea-1VQBuV.channelTextAreaDisabled-1p2fQv {
+  display: none;
 }
