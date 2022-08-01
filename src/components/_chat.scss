@@ -128,10 +128,6 @@
 
 // Chat Content
 .chatContent-3KubbW {
-  // Setting max widths
-  .messageAttachment-CZp8Iv, .markup-eYLPri blockquote, .markup-eYLPri pre{
-    max-width: 95%;
-  }
 
   // Scrollbar
   .managedReactiveScroller-1lEEh3 {
@@ -144,11 +140,12 @@
 
     &:hover {
       &::-webkit-scrollbar {
-        width: 0.3em !important;
+        width: 0.35em !important;
       }
 
       &::-webkit-scrollbar-thumb {
         background: var(--background-secondary-alt);
+        border-radius: var(--radius-secondary);
       }
     }
   }
@@ -509,13 +506,13 @@
             width: var(--textbar-button-width);
             height: var(--textbar-button-height);
             border-radius: var(--radius-secondary);
-            transition: background-color 0.2s linear;
+            transition: background-color 125ms linear;
           }
           svg {
             margin-left: -7px;
             margin-top: -2px;
             color: var(--interactive-muted);
-            transition: opacity 0.2s linear;
+            transition: opacity 125ms linear;
           }
       }
 

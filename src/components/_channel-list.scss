@@ -69,6 +69,16 @@
         border-radius: var(--radius-secondary);
     }
 
+    .container-2giAcK {
+        .progressBarContainer-1efroK{
+            height: 7px;
+            border-radius: var(--radius-primary);
+            .progressBar-2yl2pi {
+                border-radius: var(--radius-primary);
+            }
+        }
+    }
+
     // Search bar in friends list
     .privateChannels-oVe7HL .searchBar-3TnChZ {
         background-color: var(--background-secondary);
@@ -363,5 +373,25 @@
             margin-right: 10px;
             grid-column: 1;
         }
+    }
+}
+
+.powercord-spotify {
+    background-color: var(--background-secondary);
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-radius: var(--radius-secondary);
+
+    .spotify-seek-bar {
+      height: 4px;
+      border-radius: 50px;
+      margin-left: 15px;
+      margin-right: 15px;
+      background: var(--background-primary);
+    }
+  
+    .spotify-seek-bar-progress {
+      background: var(--spotify-color);
+      border-radius: 50px;
     }
 }
