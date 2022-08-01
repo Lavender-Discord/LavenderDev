@@ -237,6 +237,9 @@
         &:hover {background-color: var(--background-primary);}
     }
 
+    // User connnected to vc
+    .voiceUser-3nRK-K>div{border-radius: var(--radius-secondary);}
+
     // Unread indicator next to channel
     .iconVisibility-vptxma.modeUnread-3Cxepe .unread-36eUEm {
         background-color: var(--accent-primary);

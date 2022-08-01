@@ -15,3 +15,11 @@
 .iconLive-nQxzyp{
     color: var(--green-primary) !important;
 }
+
+// Fix for the attachment remove button position
+.messageAttachmentNoJustify-lIzP9c {
+    justify-self: start !important;
+}
+
+// Fix for long embeds
+.embedWrapper-1MtIDg.justifyAuto-BLgJ2X{justify-self: start !important;}
