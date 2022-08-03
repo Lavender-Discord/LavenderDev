@@ -2,6 +2,46 @@
     font-variant-ligatures: none;
 }
 
+.wrapper-1_HaEi, .base-2jDfDU, .sidebar-1tnWFu, .chat-2ZfjoI, .content-1jQy2l, .container-2o3qEW{
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+.appMount-2yBXZl {
+    background-color: var(--background-primary);
+    -webkit-app-region: drag;
+}
+
+.app-2CXKsg {
+    background-color: transparent;
+}
+
+// Remove the laggy animation upon opening any new layer
+.layers-OrUESM {
+    background-color: var(--background-primary);
+    -webkit-app-region: no-drag;
+    .layer-86YKbF {
+        transform: none !important;
+        will-change: unset;
+
+        &.animating-1rIrGV {
+            pointer-events: auto !important;
+            will-change: unset;
+        }
+    }
+}
+
+.anchor-1MIwyf.anchorUnderlineOnHover-2qPutX{
+    color: var(--accent-primary);
+    transition: .3s ease;
+    border-radius: var(--radius-tertiary);
+    &:hover{
+        text-decoration: none;
+        color: var(--interactive-hover);
+        background-color: var(--brand-experiment-15a);
+    }
+}
+
 .resizeHandle-PBRzPC {
     background-color: var(--background-secondary);
     border-radius: var(--radius-secondary);

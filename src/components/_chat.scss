@@ -128,7 +128,6 @@
 
 // Chat Content
 .chatContent-3KubbW {
-
   // Scrollbar
   .managedReactiveScroller-1lEEh3 {
     scrollbar-width: auto !important;
@@ -183,7 +182,7 @@
     &.reactionMe-1PwQAc {
       .reactionInner-YJjOtT{
         *{font-weight: 700;color: var(--interactive-active);}
-        background-color: var(--brand-experiment-20a);
+        background-color: var(--brand-experiment-15a);
         &:hover{
           background-color: var(--brand-experiment-40a);
         }
@@ -284,7 +283,7 @@
   // Embeds
   .embedFull-1HGV2S {
     border-width: 0;
-    border-color: var(--accent-tertiary);
+    border-color: var(--accent-primary);
     border-radius: var(--radius-secondary);
     padding-left: 9px;
     transition: 125ms linear;
@@ -384,11 +383,12 @@
 
 // Textbar
 .channelTextArea-1VQBuV {
+  background-color: transparent;
   // base chatbars
   .scrollableContainer-15eg7h {
     background-color: transparent;
     margin-right: 0;
-    padding-right: 10px;
+    padding-right: 7px;
   }
 
   .textArea-2CLwUE {

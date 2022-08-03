@@ -3,7 +3,7 @@
 .container-2o3qEW,
 .membersWrap-3NUR2t,
 .members-3WRCEx > div {
-    background-color: var(--background-primary);
+    background-color: transparent;
 }
 
 // Member List & DMS lists
@@ -28,7 +28,6 @@
 
 .membersGroup-2eiWxl {
     height: 55px;
-    background-color: var(--background-primary);
     transition: .2s ease;
     z-index: 101;
     
